@@ -18,21 +18,20 @@
 # When setting this field to "incubator", please uncomment the
 # incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
 # lines further down this file and add the URL to the relevant lesson site.
-carpentry: "swc"
+carpentry: "lc"
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
 # The value of the variable will be ignored for Library Carpentry
 # workshops.
 # Possible values are:
-# dc-astronomy:     for Data Carpentry Astronomy
-# dc-ecology:       for Data Carpentry Ecology
-# dc-genomics:      for Data Carpentry Genomics
-# dc-socsci:        for Data Carpentry Social Sciences
-# dc-geospatial:    for Data Carpentry Geospatial
-# dc-image:         for Data Carpentry Image Processing
+# dc-astronomy: for Data Carpentry Astronomy
+# dc-ecology: for Data Carpentry Ecology
+# dc-genomics: for Data Carpentry Genomics
+# dc-socsci: for Data Carpentry Social Sciences
+# dc-geospatial: for Data Carpentry Geospatial
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
-# swc-gapminder:    for Software Carpentry based on the Gapminder dataset
+# swc-gapminder: for Software Carpentry based on the Gapminder dataset
 curriculum: "FIXME"
 
 # If there is both an R and python official version of a curriculum
@@ -53,7 +52,7 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "2022-12-05-gatech"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
@@ -83,7 +82,7 @@ kind: "workshop"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: <USERNAME>/<PROJECT>
+repository: <butterflyology>/<2022-12-05-gatech>
 
 # Email address, no mailto:
 # (Don't change this -- the contact address for your workshop will be set
@@ -98,7 +97,7 @@ carpentries_site: "https://carpentries.org/"
 dc_site: "https://datacarpentry.org"
 example_repo: "https://github.com/carpentries/lesson-example"
 example_site: "https://carpentries.github.io/lesson-example"
-incubator: "https://carpentries-incubator.org/"
+incubator: "https://github.com/carpentries-incubator/"
 lc_site: "https://librarycarpentry.org/"
 swc_github: "https://github.com/swcarpentry"
 swc_pages: "https://swcarpentry.github.io"
